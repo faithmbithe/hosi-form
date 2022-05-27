@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital fill in form</title>
+</head>
+ <style>
+body{
+    background-image: url("/image/hosp.jpg");
+}
+form{
+    margin: 20px;
+    border: 5px gold;
+
+}
+input{
+    background: none;
+}
+div{
+    padding: 10px;
+    background-color: #00000093;
+}
+.contactinput{
+    width: 100px;
+    padding: 12px 12px;
+}
+.d{
+  text-align: center;
+}
+
+
+</style>
+<body>
+    <h2>Registration Form</form></h2>
+
+    <div>
+        <label for="">Patient name</label><br>
+        <input class="contact input"  type="text"  name="PatientName"  placeholder="eg.kennedy king'ori">
+    </div>
+
+    <div>
+
+        <label for="">Location</label>
+
+<select name="county" id="countyname">
+    <option value="">kisumu</option>
+    <option value="">homabay</option>
+    <option value="">kisii</option>
+    <option value="">nyamira</option>
+    <option value="">bungoma</option>
+    </select>
+
+
+    </div>
+
+    <div>
+        ;<label for="">Card number</label>
+        <input type="number" name="card number"placeholder="345677565689" >
+    </div>
+
+    <div>
+        <label for="">Tel number</label>
+        <input type="text" name="Phone number" value="+254">
+    </div>
+
+    <div>
+        <label for="">Age</label>
+        <input type="number" name="Age">
+    </div>
+
+    <div>
+        <label for="">next of kin</label>
+        <input type="text" name="Next of Kin">
+    </div>
+
+    <div>
+        <h4>gender</h4>
+        <label for="">Male</label>
+        <input type="radio">
+        <label for="">Female</label>
+        <input type="radio">
+    </div>
+
+    <div>
+        <label for="">date of birth</label>
+        <input type="date">
+    </div>
+
+    <div>
+        <label class="d">description</label>
+        <textarea name="description" id="description" cols="50" rows="5"></textarea>
+    </div>
+     
+    <button>submit</button>
+</body>
+</html>
